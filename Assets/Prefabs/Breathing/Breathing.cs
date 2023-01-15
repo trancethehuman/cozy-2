@@ -8,6 +8,7 @@ public class Breathing : MonoBehaviour
     [field: SerializeField] public int BreathsPerMinute { get; private set; }
     [field: SerializeField] public float TimeTillNextBreath { get; private set; }
     [field: SerializeField] public int CurrentBreath { get; private set; }
+    [field: SerializeField] public float WaitInBetweenSections { get; private set; }
     // Start is called before the first frame update
     void Start()
     {
